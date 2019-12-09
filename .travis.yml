@@ -7,4 +7,4 @@ notifications:
   email: false
 deploy:
   provider: heroku
-  api_key: ""
+  api_key: "a6380045-50e6-470e-adea-b8c350ce0495"
