@@ -51,8 +51,8 @@ app.post("/api/users", jsonParser, function (req, res) {
     const user = {phone: userPhone, name: userName, debt: userDebt};
        
     const collection = req.app.locals.collection;
-    collection.insertOne(user, function(err, result){
-               
+    collection.insertOne(user, function(err){//тут было unction(err, result)
+        
         if(err) return console.log(err);
         res.send(user);
     });
