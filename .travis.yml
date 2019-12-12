@@ -8,4 +8,4 @@ notifications:
 deploy:
   provider: heroku
   app: nodemongolab
-  api_key: "a6380045-50e6-470e-adea-b8c350ce0495"
+  api_key: $API_KEY1

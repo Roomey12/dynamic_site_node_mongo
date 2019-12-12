@@ -7,7 +7,7 @@ const mongo_uri =
 const app = express();
 const jsonParser = express.json();
 
-mongoose
+mongoose // подключение
   .connect(mongo_uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
